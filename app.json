@@ -1,0 +1,56 @@
+{
+    "pages": [
+        "pages/follow/follow",
+        "pages/index/index",
+        "pages/mv/mv",
+        "pages/me/me",
+        "pages/me-item/recentlyPlayed/recentlyPlayed",
+        "pages/musicPlay/musicPlay",
+        "pages/mvPlay/mvPlay",
+        "pages/search/search",
+        "pages/recommendSong/recommendSong",
+        "pages/login/login"
+    ],
+    "requiredBackgroundModes": [
+      "audio"
+    ],
+    "tabBar": {
+        "color": "#333",
+        "selectedColor": "#1dd399",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/static/images/音乐_off.png",
+                "selectedIconPath": "/static/images/音乐_on.png"
+            },
+            {
+                "pagePath": "pages/mv/mv",
+                "text": "视频",
+                "iconPath": "/static/images/视频_off.png",
+                "selectedIconPath": "/static/images/视频_on.png"
+            },
+            {
+                "pagePath": "pages/follow/follow",
+                "text": "关注",
+                "iconPath": "/static/images/我的关注_off.png",
+                "selectedIconPath": "/static/images/我的关注_on.png"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "text": "我的",
+                "iconPath": "/static/images/我的_off.png",
+                "selectedIconPath": "/static/images/我的_on.png"
+            }
+        ]
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Player",
+        "navigationStyle": "default",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
